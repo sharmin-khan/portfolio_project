@@ -1,0 +1,279 @@
+.open-sans-normal {
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+ 
+*{
+    margin: 0;
+    padding: 0;
+}
+/* shared style */
+.secondary_bg {
+    background-color: #FFF8F3;
+}
+
+.text_primary {
+    color: #FD6E0A;
+}
+
+.dark_2 {
+    color: #474747;
+}
+
+.btn_primary {
+    background-color: #FD6E0A;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 18px 35px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.btn2{
+    background: #fff;
+    color: #FD6E0A;
+    border: 2px solid #FD6E0A;
+    margin-left: 10px;
+    padding: 16px 33px;
+}
+
+
+
+
+/* header */
+.header {
+    background-image: url("../images/developer.png"), url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+
+}
+
+/* nav style */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 230px;
+    padding: 25px 0;
+}
+
+.nav_title {
+    font-weight: 800;
+    font-size: 45px;
+    color: #181818;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+   
+}
+
+nav ul li {
+    list-style: none;
+    margin-left:25px;
+}
+
+nav li a {
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+nav li a:hover{
+    padding-bottom: 5px;
+    border-bottom: 3px solid  #FD6E0A;
+    transition: width .3s ease-in;
+    width: 100%;
+ }
+/* banner style */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 230px;
+}
+
+.banner_content {
+    max-width: 580px;
+    margin-top: 100px;
+}
+
+.banner_greetings {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.banner_title {
+    font-weight: bold;
+    font-size: 85px;
+    color: #181818;
+}
+
+.banner_description {
+    font-size: 18px;
+    line-height: 26px;
+    margin: 30px 0;
+}
+
+.banner_profile_pic {
+    width: 580px;
+}
+
+/* main styles */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* about styles */
+.about {
+    border-radius: 10px;
+    padding: 110px 100px;
+    text-align: center;
+    margin-top: 120px;
+    
+}
+.about_title {
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.about_description {
+    line-height: 25px;
+    font-size: 16px;
+    color: #757575;
+    margin: 30px 0;
+}
+
+.about_items {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.item_description {
+    font-weight: 600;
+    margin: 12px 0;
+    color: #181818;
+}
+/* what i do section styles */
+.skills{
+    padding: 30px;
+}
+.skills_title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.skills_description{
+    margin: 30px 0 50px 0;
+    color: #474747;
+
+}
+.skills_container{
+    display: flex;
+    gap: 24px;
+
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06) ;
+}
+.text_center{
+    text-align: center;
+}
+.skill_title{
+    padding: 30px 0;
+    font-size: 20px;
+    color: #181818;
+}
+.skill_content{
+    line-height: 22px;
+    
+}
+/* resume styles */
+.resume{
+    margin: 112px 0;
+}
+.resume_title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+
+}
+.resume_container{
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+    margin-top: 100px;
+}
+.resume_column_title{
+    font-size: 30px;
+    font-weight: bold;
+    color: #474747;
+    margin-bottom: 30px;
+}
+.education_title,.experience_title{
+    font-size: 22px;
+    font-weight: bold;
+    color: #474747;
+}
+.education_title_subtitle,.experience_title_subtitle{
+    font-size: 17px;
+    font-weight: 600;
+    color: #474747;
+    margin: 10px 0;
+}
+hr{
+    margin: 30px 0;
+}
+.btn_resume{
+    margin-top: 50px;
+   
+}
+/* footer styles */
+footer{
+   padding: 130px 200px;
+  
+}
+.footer_container{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.footer_description{
+margin: 20px 0;
+font-size: 15px;
+}
+.right_column{
+    width: 60%;
+}
+img{
+    margin-right: 15px;
+}
+.footer_title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    margin-top: 20px;
+}
+.contact_form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 20px 0;
+
+}
+input[type="text"],[type="email"] ,textarea{
+    padding: 15px 20px;
+    font-size: 14px;
+    color: #757575;
+    border: none;
+    border-radius: 5px;
+}
